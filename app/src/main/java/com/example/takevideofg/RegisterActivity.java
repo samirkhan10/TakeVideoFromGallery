@@ -28,7 +28,7 @@ public class RegisterActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_register);
 
         gallery=findViewById(R.id.gallery);
         selectfromgallery=findViewById(R.id.selectfromgallerybutton);
@@ -43,7 +43,6 @@ public class RegisterActivity extends AppCompatActivity
                 startActivityForResult(intent,1);
             }
         }  );
-
 
     }
 

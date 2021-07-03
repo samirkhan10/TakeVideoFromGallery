@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
                             Toast.makeText(getApplicationContext(),"Registered Successfully",Toast.LENGTH_LONG).show();
                             Intent intent = new Intent(MainActivity.this , RegisterActivity.class);
                             startActivity(intent);
+
                         }
                         else
                         {
